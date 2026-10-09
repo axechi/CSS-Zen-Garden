@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.page-wrapper{
+.page-wrapper {
   width: 80%;
   max-width: 1280px;
   margin: 0 auto;
@@ -35,22 +35,35 @@ body {
 
 .preamble {
   border-bottom: 5px solid #c6c1a7;
-  
+
 }
-.participation, .benefits {
-background-color: #f5f0dd;
-border: 1px solid #d4cdb1;
+
+.participation,
+.benefits {
+  background-color: #f5f0dd;
+  border: 1px solid #d4cdb1;
 }
-.participation h3, .benefits h3 {
+/* make the Benefits in the box too done!>>..*/
+.participation h3,
+.benefits h3 {
   margin-top: 0;
   padding-top: 1em;
 }
 
-.participation p:last-child, .benefits p:last-child{
+
+.participation p:last-child,
+.benefits p:last-child {
   margin-bottom: 0;
   padding-bottom: 1em;
+  text-decoration: #4C4A3D;
+}
+.design-selection {
+background-color: #f7f2d6e6;
+padding: 0 auto 2em;
+/* change thiis ABOVE */
 
+margin-right: 3rem;
 }
 
 
-/* make the Benefits in the box too */
+/* make the bottom 
